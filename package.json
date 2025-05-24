@@ -1,0 +1,17 @@
+{
+  "name": "guia-de-perguntas",
+  "version": "1.0.0",
+  "description": "Exercicio de tecweb criar um app que vai consumir um banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauro Furtado",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "guia-de-perguntas": "file:",
+    "nodemon": "^3.1.10"
+  }
+}
