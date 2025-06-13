@@ -20,11 +20,11 @@
                 <h3>Realizar perguntas</h3>
             </div>
             <div class="card-body">
-                <form >
+                <form method="post" action="/salvarpergunta">
                     <label >Titulo</label>
-                    <input type="text" class="form-control" placeholder="Titulo">
+                    <input type="text" class="form-control" placeholder="Titulo" name="titulo">
                     <label >Descrição</label>
-                    <textarea class="form-control" placeholder=" Descreva a sua pergunta aqui"></textarea>  
+                    <textarea class="form-control" placeholder=" Descreva a sua pergunta aqui" name="descricao" ></textarea>  
                     <br>
                     <button class="btn btn-success">Perguntar</button>
             </form>
