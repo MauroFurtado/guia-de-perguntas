@@ -7,8 +7,8 @@ const Pergunta = connection.define('pergunta',{
         allowNull: false
     },
     descricao:{
-       type: Sequelize.TEXT,
-       allowNull: false
+        type: Sequelize.TEXT,
+        allowNull: false
     }
 });
 
